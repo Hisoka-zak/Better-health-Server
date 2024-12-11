@@ -12,7 +12,7 @@ myApp.use(express.json());
 myApp.use(cors());
 
 //connect to the DB
-mongoose.connect("mongodb+srv://Admin:Admin123@cluster0.tz9iw0t.mongodb.net/MealsDB");
+mongoose.connect("mongodb+srv://Admin:1234@cluster0.tz9iw0t.mongodb.net/MealsDB");
 
 //Get Meals to Display
 myApp.get("/getMeals",(req,res)=>{
